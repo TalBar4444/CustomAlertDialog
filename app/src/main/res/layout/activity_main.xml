@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_bkg"
+        android:alpha="0.7"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Choose your Dialog"
+            android:textSize="35sp"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="top"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_success"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Show Success Dialog"
+            android:backgroundTint="@color/green"
+            app:cornerRadius="12dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_error"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Show Error Dialog"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/red"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_warning"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Show Warning Dialog"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/yellow"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_info"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Show Info Dialog"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/blue"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_delete"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Show Delete Dialog"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/brightRed"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
