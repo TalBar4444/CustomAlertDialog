@@ -50,7 +50,7 @@ Displays a success message, with 1 button
 
 #### CustomErrorDialog
 Displays an Error message, with 1 button.
-````
+```
     CustomDialog.showDialog(this, CustomDialog.DialogType.ERROR,
           "Error", 
           "Something went wrong, try again later",
