@@ -107,5 +107,4 @@ Displays a delete message, with 2 buttons
 ![img_delete](https://github.com/user-attachments/assets/8cd4c825-880d-4240-ba04-0338c0eaea43)
 
 ## Credits
-5 stars icon:
 Icon made by Flat Icons (www.flat-icons.com) from www.flaticon.com
