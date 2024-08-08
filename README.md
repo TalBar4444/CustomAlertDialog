@@ -1,8 +1,6 @@
 # CustomDialog-Android
 This library is a set of simple wrapper classes that was created to help you easily make custom pop-ups dialogs.
 
-<img src="" width="288">
-
 <img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_success.png" width="300">
 <img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_error.png" width="300">
 <img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_warning.png" width="300">
@@ -57,7 +55,6 @@ Displays an Error message, with 1 button.
           view -> {
               Toast.makeText(MainActivity.this, "error choose ok", Toast.LENGTH_SHORT).show();
           },null);
-
 ```
 
 #### CustomWarningDialog
@@ -85,6 +82,7 @@ Displays an informative message, with 1 button.
             }, null);
 
 ```
+
 #### CustomDeleteDialog
 Displays a delete message, with 2 buttons.
 ```
@@ -100,16 +98,5 @@ Displays a delete message, with 2 buttons.
 
 ```
       
-## Success
-![img_success](https://github.com/user-attachments/assets/f8919d3b-73e2-4e6c-a32c-8dbe506c9b88)
-## Error
-![img_error](https://github.com/user-attachments/assets/6f200125-544b-4dba-8278-56f4ef50c840)
-## Warning
-![img_warning](https://github.com/user-attachments/assets/8863675e-83c8-4d3a-aef3-55f06a2d78de)
-## Info
-![img_info](https://github.com/user-attachments/assets/e77fd33a-9497-4295-9584-72f9002d6c4d)
-## Delete
-![img_delete](https://github.com/user-attachments/assets/8cd4c825-880d-4240-ba04-0338c0eaea43)
-
 ## Credits
 Icon made by Flat Icons (www.flat-icons.com) from www.flaticon.com
