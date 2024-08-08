@@ -49,7 +49,8 @@ Displays a success message, with 1 button
 ```
 
 #### CustomErrorDialog
-Displays an Error message, with 1 button
+Displays an Error message, with 1 button.
+````
     CustomDialog.showDialog(this, CustomDialog.DialogType.ERROR,
           "Error", 
           "Something went wrong, try again later",
@@ -61,6 +62,7 @@ Displays an Error message, with 1 button
 
 #### CustomWarningDialog
 Displays a Warning message, with 2 buttons
+```
     CustomDialog.showDialog(this, CustomDialog.DialogType.WARNING,
           "Warning",
           "Do you want to continue?",
@@ -71,8 +73,10 @@ Displays a Warning message, with 2 buttons
               Toast.makeText(MainActivity.this, "warning choose cancel", Toast.LENGTH_SHORT).show();
           });
 ```
+
 #### CustomInfoDialog
-Displays an informative message, with 1 button
+Displays an informative message, with 1 button.
+```
      CustomDialog.showDialog(this, CustomDialog.DialogType.INFO,
            "Information",
            "This is an informative content",
@@ -82,7 +86,8 @@ Displays an informative message, with 1 button
 
 ```
 #### CustomDeleteDialog
-Displays a delete message, with 2 buttons
+Displays a delete message, with 2 buttons.
+```
     CustomDialog.showDialog(this, CustomDialog.DialogType.DELETE,
            "Deleting",
            "Are you sure you want to delete this item? ",
