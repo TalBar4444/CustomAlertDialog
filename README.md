@@ -16,13 +16,6 @@ allprojects {
     }
 }
 ```
-Step 2. Add the dependency:
-
-```
-dependencies {
-	implementation ''
-}
-```
 ## Usage
 
 ### Dialog Types
