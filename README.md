@@ -3,11 +3,11 @@ This library is a set of simple wrapper classes that was created to help you eas
 
 <img src="" width="288">
 
-<img src="https://github.com/user-attachments/assets/f8919d3b-73e2-4e6c-a32c-8dbe506c9b88" width="200" height="288">
-<img src="https://github.com/user-attachments/assets/6f200125-544b-4dba-8278-56f4ef50c840" width="288">
-<img src="https://github.com/user-attachments/assets/8863675e-83c8-4d3a-aef3-55f06a2d78de" width="288">
+<img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_success.png" width="300">
+<img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_error.png" width="300">
+<img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_warning.png" width="300">
 <img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_info.png" width="300">
-<img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_delete.png" width="340">
+<img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_delete.png" width="300">
 
 ## Setup
 Step 1. Add it in your root build.gradle at the end of repositories:
