@@ -35,7 +35,7 @@ Each Dialog has its own top color, icon, title and message. There are 5 types of
 * [CustomDeleteDialog](#customdeletedialog)
 
 #### CustomSuccessDialog
-Displays a success message, with 1 button
+Displays a success message with 1 button.
 
 ```java
     CustomDialog.showDialog(this, CustomDialog.DialogType.SUCCESS,
@@ -47,7 +47,7 @@ Displays a success message, with 1 button
 ```
 
 #### CustomErrorDialog
-Displays an Error message, with 1 button.
+Displays an Error message with 1 button.
 ```
     CustomDialog.showDialog(this, CustomDialog.DialogType.ERROR,
           "Error", 
@@ -58,7 +58,7 @@ Displays an Error message, with 1 button.
 ```
 
 #### CustomWarningDialog
-Displays a Warning message, with 2 buttons
+Displays a Warning message with 2 buttons.
 ```
     CustomDialog.showDialog(this, CustomDialog.DialogType.WARNING,
           "Warning",
@@ -72,7 +72,7 @@ Displays a Warning message, with 2 buttons
 ```
 
 #### CustomInfoDialog
-Displays an informative message, with 1 button.
+Displays an informative message with 1 button.
 ```
      CustomDialog.showDialog(this, CustomDialog.DialogType.INFO,
            "Information",
@@ -84,7 +84,7 @@ Displays an informative message, with 1 button.
 ```
 
 #### CustomDeleteDialog
-Displays a delete message, with 2 buttons.
+Displays a delete message with 2 buttons.
 ```
     CustomDialog.showDialog(this, CustomDialog.DialogType.DELETE,
            "Deleting",
