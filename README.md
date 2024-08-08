@@ -1,5 +1,5 @@
 # CustomDialog-Android
-This library is a set of simple wrapper classes that was created to help you easily make custom pop-ups dialogs.
+This library is a set of simple wrapper classes that was created to help you easily make custom Alert dialogs.
 
 <img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_success.png" width="300">
 <img src="https://github.com/TalBar4444/CustomAlertDialog/blob/master/img_error.png" width="300">
