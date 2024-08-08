@@ -3,7 +3,7 @@ This library is a set of simple wrapper classes that was created to help you eas
 
 <img src="" width="288">
 
-<img src="https://github.com/user-attachments/assets/f8919d3b-73e2-4e6c-a32c-8dbe506c9b88" height="300" width="288">
+<img src="https://github.com/user-attachments/assets/f8919d3b-73e2-4e6c-a32c-8dbe506c9b88" width="300" height="200">
 <img src="https://github.com/user-attachments/assets/6f200125-544b-4dba-8278-56f4ef50c840" height="300" width="288">
 <img src="https://github.com/user-attachments/assets/8863675e-83c8-4d3a-aef3-55f06a2d78de" width="288">
 <img src="https://github.com/user-attachments/assets/e77fd33a-9497-4295-9584-72f9002d6c4d" width="288">
