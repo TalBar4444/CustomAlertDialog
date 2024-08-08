@@ -27,7 +27,7 @@ dependencies {
 
 ### Dialog Types
 
-Each Dialog has its own top color, icon, title and message + its own featured. There are 5 types of dialogs available:
+Each Dialog has its own top color, icon, title and message. There are 5 types of dialogs available:
 * [CustomSuccessDialog](#customsuccessdialog)
 * [CustomErrorDialog](#customeerrordialog)
 * [CustomWarningDialog](#customwarningdialog)
