@@ -10,7 +10,7 @@ import com.myapps.customdialog.CustomDialog;
 
 public class MainActivity extends AppCompatActivity {
 
-    private MaterialButton main_BTN_success, main_BTN_error, main_BTN_warning, main_BTN_info,main_BTN_delete;
+    private MaterialButton main_BTN_success, main_BTN_error, main_BTN_warning, main_BTN_info, main_BTN_delete;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,48 +19,58 @@ public class MainActivity extends AppCompatActivity {
         findViews();
 
         main_BTN_success.setOnClickListener(v -> {
-            CustomDialog.showDialog(this, CustomDialog.DialogType.SUCCESS, null, null,
-                    null,null);
+            CustomDialog.showDialog(this, CustomDialog.DialogType.SUCCESS,
+                    "Success",
+                    "Congratulation!",
+                    view -> {
+                        Toast.makeText(MainActivity.this, "Success choose Done", Toast.LENGTH_SHORT).show();
+                    }, null);
 
         });
 
         main_BTN_error.setOnClickListener(v -> {
-            CustomDialog.showDialog(this, CustomDialog.DialogType.ERROR, "Error", "Something went wrong",
-                    null,
+            CustomDialog.showDialog(this, CustomDialog.DialogType.ERROR,
+                    "Error",
+                    "Something went wrong, try again later",
                     view -> {
                         Toast.makeText(MainActivity.this, "error choose ok", Toast.LENGTH_SHORT).show();
-                    });
+                    }, null);
 
         });
 
 
         main_BTN_warning.setOnClickListener(v -> {
-            CustomDialog.showDialog(this, CustomDialog.DialogType.WARNING, "warning", "Im warning",
+            CustomDialog.showDialog(this, CustomDialog.DialogType.WARNING,
+                    "Warning",
+                    "Do you want to continue?",
                     view -> {
-                        Toast.makeText(MainActivity.this, "warning choose ok", Toast.LENGTH_SHORT).show();
-                    },null);
-
+                        Toast.makeText(MainActivity.this, "warning choose continue", Toast.LENGTH_SHORT).show();
+                    },
+                    view -> {
+                        Toast.makeText(MainActivity.this, "warning choose cancel", Toast.LENGTH_SHORT).show();
+                    });
         });
 
         main_BTN_info.setOnClickListener(v -> {
-            CustomDialog.showDialog(this, CustomDialog.DialogType.INFO, "info", "Im info",
+            CustomDialog.showDialog(this, CustomDialog.DialogType.INFO,
+                    "Information",
+                    "This is an informative content",
                     view -> {
-                        Toast.makeText(MainActivity.this, "info choose ok", Toast.LENGTH_SHORT).show();
-                    },view -> {
-                        Toast.makeText(MainActivity.this, "info choose not", Toast.LENGTH_SHORT).show();
-                    });
+                        Toast.makeText(MainActivity.this, "Info choose ok", Toast.LENGTH_SHORT).show();
+                    }, null);
 
         });
 
         main_BTN_delete.setOnClickListener(v -> {
-            CustomDialog.showDialog(this, CustomDialog.DialogType.DELETE, "Deleting", "null",
+            CustomDialog.showDialog(this, CustomDialog.DialogType.DELETE,
+                    "Deleting",
+                    "Are you sure you want to delete this item? ",
                     view -> {
-                        Toast.makeText(MainActivity.this, "delete choose ok", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "delete choose Delete", Toast.LENGTH_SHORT).show();
                     },
                     view -> {
-                        Toast.makeText(MainActivity.this, "delete choose not", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "delete choose Cancel", Toast.LENGTH_SHORT).show();
                     });
-
         });
     }
 
@@ -71,4 +81,5 @@ public class MainActivity extends AppCompatActivity {
         main_BTN_info = findViewById(R.id.main_BTN_info);
         main_BTN_delete = findViewById(R.id.main_BTN_delete);
     }
+
 }
